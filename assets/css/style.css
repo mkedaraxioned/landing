@@ -99,8 +99,8 @@ li {
 
 /*for wrapper*/
 .wrapper {
-  max-width: 1360px;
-  width: 86%; 
+  max-width: 1903px;
+  width: 88.75%; 
   margin: 0 auto;
 }
 /*=================================
@@ -119,12 +119,81 @@ li {
 /*=================================
   main styling starts here
 =================================*/
+/* left div  width: 51.27%; */
+.brand-name{
+  /* width: 46.18%; */
+  margin-left: 1.24%;
+  margin-bottom: 31px;
+  font-size: 52px;
+  color: white;
+
+}
+.brand-name+p{
+  /* width: 46.18%; */
+  margin-left: 1.24%;
+  margin-bottom: 46px;
+  font-size: 35px;
+  line-height: 51px;
+  color: white;
+}
+.brand-name+p>a{
+  color:white;
+}
+.download-section{
+  background-color: #39defe ;
+}
+.download-btn{
+  padding-top: 20px;
+  padding-bottom:20px;
+  padding-left: 1.95%;
+  padding-right: 1.95%;
+  margin-left: 1.24%;
+  margin-bottom: 442px;
+  border-radius: 37px;
+  color: white;
+  font-size: 26px;
+  background-color: #3887ed;
+}
 
 
+.download-left{
+/* width: 51.27%; */
+width: 47.42%;
+display: inline-block;
+padding-top: 434px;
+
+}
+
+.download-right{
+  width: 48.84%;
+  /* 48.84%; */
+  display: inline-block;
+  position: relative;
+  transform: translateY(-479px);
+margin-left: 3%;
+}
 
 
+.dl-shop-img,
+.dl-my-groups-img{
+  /* width: 33.39%; */
+ width: 68.24%;
+  display: inline-block;
+  position: absolute;
+}
 
-
+.dl-shop-img{
+  position: absolute;
+  /* z-index: 1; */
+  
+  /* float: left; */
+}
+.dl-my-groups-img{
+  position: absolute;
+ top: 118px;
+ left:31.63%;
+  /* z-index: 5; */
+}
 
 
 /*=================================
