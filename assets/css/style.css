@@ -335,9 +335,10 @@ padding-top: 434px;
 
 }
 .review-list{
-  padding-top: 168px;
+  /* padding-top: 168px; */
 }
 .review-title {
+  padding-top: 168px;
   font-size: 41px;
   text-align: center;
  
@@ -365,11 +366,13 @@ padding-top: 434px;
     width: 67.96%;
     margin: 0 auto;
     text-align: center;
-      font-size: 27px;
-      color:#a5a6b2;
-      margin-top: 58px;
+    font-size: 27px;
+    color:#a5a6b2;
+      /* margin-top: 58px; */
+    line-height: 45px;
+    margin-top: 53px;
   }
-  .review-section > div {
+  .review-section  {
     background-color: #f2f2f2;
   }
 
@@ -380,8 +383,111 @@ padding-top: 434px;
     margin: 0 auto;
     color: #fbc23c;
   }
+/* .reviewitem {
+  display: none;
+} */
+.review-list li:nth-of-type(2) {
+  display: none;
+}
+.review-list li:nth-of-type(3) {
+  display: none;
+}
 
+.dot {
+  /* height: 10px; */
+  /* width:  10px; */
+  height: 10px;
+  width: 10px;
+  background-color:#a6a7b3;
+  border-radius: 50%;
+  display: inline-block;
+  }
+  
+  .blue-dot {
+    height: 8px;
+    width: 8px;
+    border: 2px solid dodgerblue;
+    display: inline-block;
+    background-color:#a6a7b3;
+    border-radius: 50%;
 
+}
+.current-review {
+  margin:0 auto;
+  width:43px;
+  margin-top:63px;
+  padding-bottom: 183px;
+}
+  
+.features-title {
+  font-size: 41px;
+      text-align: center;
+      padding-top: 170px;
+  }
+  .features-title + p {
+   
+    font-size: 24px;
+    text-align: center;
+    width: 63.94%;
+    margin: 0 auto;
+    margin-top: 49px;
+    margin-bottom: 122px;
+    color: #a6a7b3;
+  }
+
+  .feature-title {
+    margin-top: 54px;
+font-size: 24px;
+text-transform: uppercase;
+text-align: center;
+  }
+  .feature-intro {
+    font-size: 24px;
+    color: #a6a7b3;
+    text-align: center;
+    line-height: 41px;
+    margin-top: 12px;
+  }
+
+  .features-list {
+    display: flex;
+  }
+
+span > .fa-tablet,
+span > .fa-star,
+span > .fa-cog,
+span > .fa-heart {
+    font-size: 56px;
+    color: #3887ed;
+    display: inline-block;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  .tablet-ico,
+  .heart-ico,
+  .star-ico,
+  .cog-ico {
+    width: 43px; 
+    height: 38px;
+    padding: 46px;
+    border-radius: 10px;
+    display: inline-block;
+    /* 2.54% */
+    background-color: #eeeeef;
+    position: relative;
+
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .features-listitem {
+    flex-basis: 25%;
+  }
+  .features-section > div{
+    padding-bottom: 109px;
+  }
 /*=================================
   main styling ends here
 =================================*/
