@@ -120,7 +120,7 @@ li {
   main styling starts here
 =================================*/
 /* left div  width: 51.27%; */
-.brand-name{
+.brand-name {
   /* width: 46.18%; */
   margin-left: 1.24%;
   margin-bottom: 31px;
@@ -128,7 +128,7 @@ li {
   color: white;
 
 }
-.brand-name+p{
+.brand-name + p {
   /* width: 46.18%; */
   margin-left: 1.24%;
   margin-bottom: 46px;
@@ -136,13 +136,13 @@ li {
   line-height: 51px;
   color: white;
 }
-.brand-name+p>a{
+.brand-name + p > a {
   color:white;
 }
 .download-section{
   background-color: #39defe ;
 }
-.download-btn{
+.download-btn {
   padding-top: 20px;
   padding-bottom:20px;
   padding-left: 1.95%;
@@ -156,7 +156,7 @@ li {
 }
 
 
-.download-left{
+.download-left {
 /* width: 51.27%; */
 width: 47.42%;
 display: inline-block;
@@ -164,36 +164,153 @@ padding-top: 434px;
 
 }
 
-.download-right{
-  width: 48.84%;
+.download-right {
+  width: 48.54%;
+  margin-left: 3%;
   /* 48.84%; */
   display: inline-block;
   position: relative;
   transform: translateY(-479px);
-margin-left: 3%;
 }
 
 
 .dl-shop-img,
-.dl-my-groups-img{
+.dl-my-groups-img {
   /* width: 33.39%; */
  width: 68.24%;
   display: inline-block;
   position: absolute;
 }
 
-.dl-shop-img{
+.dl-shop-img {
   position: absolute;
   /* z-index: 1; */
   
   /* float: left; */
 }
-.dl-my-groups-img{
+.dl-my-groups-img {
   position: absolute;
  top: 118px;
  left:31.63%;
   /* z-index: 5; */
 }
+.shop-img {
+  width: 33.27%;
+  margin-top: 428px;
+}
+.simple-title {
+  font-size: 41px;
+  position: relative;
+}
+.simple-title::after {
+  content:"";
+  display: block;
+  height: 0;
+  width:40px;
+  top: 73px;
+  border-top: 2px solid #3887ed ;
+  position: absolute;
+}
+.simple-intro {
+  font-size: 23px;
+  margin-top:79px;
+  color:#a5a6b2;
+}
+
+.simple-img {
+  display: inline-block;
+  width: 33.27%;
+  margin-top: 428px;
+}
+
+
+.keep-it-simple {
+  width: 48.54%;
+  /* margin-left: 3%; */
+  margin-left: 17.15%;
+  display: inline-block;
+  position: relative;
+  transform: translateY(134px);
+
+}
+.keep-it-simple-section>div {
+  border-bottom: 2px solid gray;
+}
+.pixel-perfect {
+  width: 48.54%;
+  /* margin-top: 569px; */
+  /* transform: translateY(-32px); */
+  transform: translateY(136px);
+  display: inline-block;
+}
+.pixel-title {
+  font-size: 41px;
+  position: relative;
+}
+.pixel-title::after {
+  content:"";
+  display: block;
+  height: 0;
+  width:40px;
+  top: 73px;
+  border-top: 2px solid #3887ed ;
+  position: absolute;
+}
+.pixel-intro {
+  font-size: 23px;
+  margin-top:79px;
+  color:#a5a6b2;
+}
+
+.pixel-img {
+  width: 33.27%;
+  /* margin-top: 428px; */
+ margin-top: 262px;
+ margin-left: 17.2%;
+  /* transform: translateY(-167px); */
+  display: inline-block;
+}
+.pixel-perfect-section>div {
+  border-bottom: 2px solid gray;
+}
+
+
+.overview-img{
+  width: 33.27%;
+  margin-top: 262px;
+  display: inline-block;
+
+
+}
+.beautiful{
+  width: 48.54%;
+  /* margin-left: 3%; */
+  margin-left: 17.15%;
+  display: inline-block;
+  transform: translateY(136px);
+  /* position: relative; */
+  /* transform: translateY(134px); */
+}
+
+.beautiful-title {
+  font-size: 41px;
+  position: relative;
+}
+.beautiful-title::after {
+  content:"";
+  display: block;
+  height: 0;
+  width:40px;
+  top: 73px;
+  border-top: 2px solid #3887ed ;
+  position: absolute;
+}
+.beautiful-intro {
+  font-size: 23px;
+  margin-top:79px;
+  color:#a5a6b2;
+}
+
 
 
 /*=================================
