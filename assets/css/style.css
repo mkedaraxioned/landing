@@ -119,28 +119,30 @@ li {
 /*=================================
   main styling starts here
 =================================*/
-/* left div  width: 51.27%; */
+
 .brand-name {
-  /* width: 46.18%; */
   margin-left: 1.24%;
   margin-bottom: 31px;
   font-size: 52px;
   color: white;
   text-transform: uppercase;
 }
-.brand-name + p {
-  /* width: 46.18%; */
+
+.download-left > p
+{
   margin-left: 1.24%;
   margin-bottom: 46px;
   font-size: 35px;
   line-height: 51px;
   color: white;
 }
-.brand-name + p > a {
+
+.download-left > p > a {
   color:white;
   position: relative;
 }
-.brand-name + p > a::after {
+
+.download-left > p > a::after {
   content:"";
   display: block;
   height: 0;
@@ -154,6 +156,7 @@ li {
 .download-section{
   background-color: #39defe ;
 }
+
 .download-btn {
   padding-top: 20px;
   padding-bottom:20px;
@@ -167,28 +170,22 @@ li {
   background-color: #3887ed;
 }
 
-
 .download-left {
-/* width: 51.27%; */
 width: 47.42%;
 display: inline-block;
 padding-top: 434px;
-
 }
 
 .download-right {
   width: 48.54%;
   margin-left: 3%;
-  /* 48.84%; */
   display: inline-block;
   position: relative;
   transform: translateY(-479px);
 }
 
-
 .dl-shop-img,
 .dl-my-groups-img {
-  /* width: 33.39%; */
  width: 68.24%;
   display: inline-block;
   position: absolute;
@@ -196,24 +193,24 @@ padding-top: 434px;
 
 .dl-shop-img {
   position: absolute;
-  /* z-index: 1; */
-  
-  /* float: left; */
 }
+
 .dl-my-groups-img {
   position: absolute;
  top: 118px;
  left:31.63%;
-  /* z-index: 5; */
 }
+
 .shop-img {
   width: 33.27%;
   margin-top: 428px;
 }
+
 .simple-title {
   font-size: 41px;
   position: relative;
 }
+
 .simple-title::after {
   content:"";
   display: block;
@@ -223,10 +220,10 @@ padding-top: 434px;
   border-top: 2px solid #3887ed ;
   position: absolute;
 }
+
 .simple-intro {
   margin-top: 58px;
   font-size: 23px;
-  /* margin-top:79px; */
   color:#a5a6b2;
   line-height: 41px;
 }
@@ -240,29 +237,27 @@ padding-top: 434px;
 
 .keep-it-simple {
   width: 48.54%;
-  /* margin-left: 3%; */
   margin-left: 17.15%;
   display: inline-block;
   position: relative;
-  /* transform: translateY(134px); */
   transform: translateY(164px);
-
 }
+
 .keep-it-simple-section>div {
   border-bottom: 2px solid gray;
 }
+
 .pixel-perfect {
   width: 48.54%;
-  /* margin-top: 569px; */
-  /* transform: translateY(-32px); */
-  /* transform: translateY(136px); */
   transform: translateY(165px);
   display: inline-block;
 }
+
 .pixel-title {
   font-size: 41px;
   position: relative;
 }
+
 .pixel-title::after {
   content:"";
   display: block;
@@ -272,8 +267,8 @@ padding-top: 434px;
   border-top: 2px solid #3887ed ;
   position: absolute;
 }
-.pixel-intro {
 
+.pixel-intro {
   margin-top: 58px;
   color:#a5a6b2;
   line-height: 41px;
@@ -286,17 +281,15 @@ padding-top: 434px;
  margin-left: 17.2%;
   display: inline-block;
 }
+
 .pixel-perfect-section>div {
   border-bottom: 2px solid gray;
 }
-
 
 .overview-img {
   width: 33.27%;
   margin-top: 262px;
   display: inline-block;
-
-
 }
 
 .beautiful {
@@ -310,6 +303,7 @@ padding-top: 434px;
   font-size: 41px;
   position: relative;
 }
+
 .beautiful-title::after {
   content:"";
   display: block;
@@ -319,37 +313,36 @@ padding-top: 434px;
   border-top: 2px solid #3887ed ;
   position: absolute;
 }
+
 .beautiful-intro {
   font-size: 23px;
   margin-top: 58px;
   color:#a5a6b2;
   line-height: 41px;
-
 }
 
 .review-title {
   padding-top: 168px;
   font-size: 41px;
   text-align: center;
- 
 }
+
 .review-img {
   width: 7.87%;
   margin: 0 auto;
   margin-top: 116px;
 }
+
 .review-img > img {
   border-radius: 50%;
 }
 
- 
   .review-name {
   text-align: center;
   margin-top: 36px;
   margin-bottom: 18px;
     font-size: 18px;
     text-transform: uppercase;
-
   }
   
   .review-para {
@@ -361,6 +354,7 @@ padding-top: 434px;
     line-height: 45px;
     margin-top: 53px;
   }
+
   .review-section  {
     background-color: #f2f2f2;
   }
@@ -374,6 +368,7 @@ padding-top: 434px;
 .review-list li.reviewitem:nth-of-type(2) {
   display: none;
 }
+
 .review-list li.reviewitem:nth-of-type(3) {
   display: none;
 }
@@ -395,6 +390,7 @@ padding-top: 434px;
     border-radius: 50%;
 
 }
+
 .current-review {
   margin:0 auto;
   width:43px;
@@ -407,8 +403,9 @@ padding-top: 434px;
       text-align: center;
       padding-top: 170px;
   }
-  .features-title + p {
-   
+
+ .features-section > div > p
+  {   
     font-size: 24px;
     text-align: center;
     width: 63.94%;
@@ -424,6 +421,7 @@ font-size: 24px;
 text-transform: uppercase;
 text-align: center;
   }
+
   .feature-intro {
     font-size: 24px;
     color: #a6a7b3;
@@ -459,16 +457,17 @@ span > .fa-heart {
     padding: 46px;
     border-radius: 10px;
     display: inline-block;
-    /* 2.54% */
     background-color: #eeeeef;
     position: relative;
 
     left: 50%;
     transform: translateX(-50%);
   }
+
   .features-listitem {
     flex-basis: 25%;
   }
+
   .features-section > div{
     padding-bottom: 109px;
   }
@@ -493,6 +492,7 @@ span > .fa-heart {
     padding-bottom: 127px;
 
 }
+
 .ip-name ,
 .ip-email ,
 .ip-submit
@@ -500,14 +500,14 @@ span > .fa-heart {
 flex-basis: 30%;
 
 }
+
 .ip-name > input ,
 .ip-email > input {
   background: #88ecff;
   border: none;
   border-radius: 5px;
   padding-left: 34px;
-  color: #092876;
-  
+  color: #092876;  
 }
     
 
@@ -519,30 +519,36 @@ flex-basis: 30%;
 width: 100%;
   font-size: 24px;
 }
+
 .ip-submit > input {
     background: #3887ed;
     border-radius: 60px;
     border: none;
     color: white;
 }
+
 .subscribe-section {
   background-color: #39defe;
 }
+
 .subscribe-section > div {
   padding-top: 188px;
   padding-bottom: 200px;
   background-color: #39defe;
 }
+
 .name-error ,
 .email-error
 {
 display: none;
 }
+
 form {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   }
+
 /*=================================
   main styling ends here
 =================================*/
@@ -561,13 +567,15 @@ footer >div p:nth-of-type(1) {
   color: #a6a7b3;
   font-size: 20px;
   }
-  footer > div > p:nth-of-type(2){
+
+  footer > div > p:nth-of-type(2) {
     text-align :center;
     color: #a6a7b3;  
     font-size: 19px;
     margin-top: 23px;
   }
-  footer > div > p >a {
+
+  footer > div > p > a {
    color: #3887ed;
   }
   
@@ -580,7 +588,7 @@ footer >div p:nth-of-type(1) {
   }
 
   
-  .social-iconsitem > a > i{
+  .social-iconsitem > a > i {
   font-size: 50px;
   }
 
@@ -598,6 +606,7 @@ footer >div p:nth-of-type(1) {
 .review-para {
   width: 90%;
 }
+
 .feature-title {
  
   font-size: 21px;
@@ -626,24 +635,29 @@ footer >div p:nth-of-type(1) {
     flex-basis: 50%;
     margin-bottom: 50px;
 }
+
 .subscribe-intro{
   width: 90%;
 }
+
 .features-section >div > p {
   width: 90%;
 }
+
 .review-para {
   width: 90%;
   font-size: 27px;
 }
+
 .review-img {
   width: 20%;
 }
+
 .ip-name, .ip-email, .ip-submit {
   flex-basis: 95%;
   margin-bottom: 20px;
-
 }
+
 .ip-submit {
   margin-bottom: 0;
 }
@@ -652,15 +666,19 @@ footer >div p:nth-of-type(1) {
 
   font-size: 17px;
 }
+
 .keep-it-simple {
   transform: translateY(140px);
 }
+
 .pixel-intro {
   font-size: 17px;
 }
+
 .pixel-perfect {
   transform: translateY(140px);
 }
+
 .beautiful-intro {
   font-size: 17px;
 }
@@ -668,9 +686,11 @@ footer >div p:nth-of-type(1) {
 .beautiful {
   transform: translateY(140px);
 }
+
 .social-icons {
   width: 50%;
 }
+
 }
 
 
@@ -680,6 +700,17 @@ footer >div p:nth-of-type(1) {
   padding-top: 100px;
 }
 
+.download-btn{
+  padding-left: 50%;
+  padding-right: 50%;
+  font-size: 23px;
+  width: 100%;
+  }
+   
+  .download-right {
+      width: 100%;
+      transform: translateY(-372px);
+  }
 
 .download-btn{
   padding-left: 50%;
@@ -687,40 +718,19 @@ footer >div p:nth-of-type(1) {
   font-size: 23px;
   width: 100%;
   }
-  
-  
-  
+   
   .download-right {
       width: 100%;
       transform: translateY(-372px);
   }
-
-
-  
-
-.download-btn{
-  padding-left: 50%;
-  padding-right: 50%;
-  font-size: 23px;
-  width: 100%;
-  }
-  
-  
-  
-  .download-right {
-      width: 100%;
-      transform: translateY(-372px);
-  }
-  
-  
+   
   .download-btn {
       padding-left: 3%;
       padding-right: 2%;
       font-size: 23px;
       width: 94%;
   }
-  
-  
+   
   .download-left {
   width:100%;
   }
@@ -735,23 +745,22 @@ footer >div p:nth-of-type(1) {
       margin-left: 0;
        margin-left: 0;
   }
-  
-  
+   
   .keep-it-simple-section>div {
-  
       padding-bottom: 100px;
   }
   
   .pixel-title::after {
       top: 47px;
   }
+
   .pixel-perfect {
   width:100%;
   }
   
   .pixel-img {
       width: 100%;
-        margin-left: 0;
+      margin-left: 0;
   }
   
   .overview-img {
@@ -763,6 +772,7 @@ footer >div p:nth-of-type(1) {
       margin-left: 0%;
   padding-bottom:200px;
   }
+
   .review-img {
       width: 30%;
   }
@@ -777,7 +787,7 @@ footer >div p:nth-of-type(1) {
       margin-bottom: 50px;
   }
   
-  .features-title + p {
+  .features-section > div > p {
       font-size: 24px;
       text-align: center;
        width: 100%;
@@ -788,8 +798,7 @@ footer >div p:nth-of-type(1) {
   }
   
   .ip-name, .ip-email, .ip-submit {
-      flex-basis: 88%;
-   
+      flex-basis: 88%;  
       margin-bottom: 20px;
   }
   
@@ -797,14 +806,14 @@ footer >div p:nth-of-type(1) {
   margin:0 auto;
   }
   
-  .social-icons {
-  
+  .social-icons { 
       width: 70%;
   }
 
   .beautiful-title::after {
     top: 47px;
 }
+
 .keep-it-simple {
   margin-bottom: 100px;
 }
