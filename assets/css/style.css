@@ -508,7 +508,8 @@ span > .fa-heart {
 
 }
 .ip-name ,
-.ip-email 
+.ip-email ,
+.ip-submit
  {
    /* width: 30%;
    display: inline-block;
@@ -538,8 +539,10 @@ width: 100%;
   font-size: 24px;
 }
 .ip-submit > input {
-  padding-left: 210px;
-    padding-right: 210px;
+  /* padding-left: 37.63%;
+    padding-right: 37.63%; */
+  /* padding-left: 210px;
+    padding-right: 210px; */
     background: #3887ed;
     border-radius: 60px;
     border: none;
@@ -617,8 +620,31 @@ footer >div p:nth-of-type(1) {
 
 /*media query starts*/
 /*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
+@media only screen and (min-width: 1024px) and (max-width:1600px) {
+.features-section > div > p {
+  width: 90%;
+}
+
+.review-para {
+  width: 90%;
+}
+.feature-title {
+ 
+  font-size: 21px;
+}
+
+.feature-intro {
+  font-size: 16px;
+}
 
 
+.tablet-ico, .heart-ico, .star-ico, .cog-ico {
+  width: 33px;
+  height: 28px;
+}
+
+.subscribe-intro {
+  width: 90%;
+}
 
 }  
