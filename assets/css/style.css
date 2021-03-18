@@ -377,17 +377,17 @@ padding-top: 434px;
   .ratings {
     /* margin-left: 50%;
     transform: translateX(-45px); */
-    width: 93px;
+    width: 95px;
     margin: 0 auto;
     color: #fbc23c;
   }
 /* .reviewitem {
   display: none;
 } */
-.review-list li:nth-of-type(2) {
+.review-list li.reviewitem:nth-of-type(2) {
   display: none;
 }
-.review-list li:nth-of-type(3) {
+.review-list li.reviewitem:nth-of-type(3) {
   display: none;
 }
 
