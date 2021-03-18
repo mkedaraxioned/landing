@@ -159,9 +159,9 @@ li {
   padding-bottom:20px;
   padding-left: 1.95%;
   padding-right: 1.95%;
+  border-radius: 37px;
   margin-left: 1.24%;
   margin-bottom: 442px;
-  border-radius: 37px;
   color: white;
   font-size: 26px;
   background-color: #3887ed;
@@ -276,7 +276,6 @@ padding-top: 434px;
   /* margin-top:79px; */
   margin-top: 58px;
   color:#a5a6b2;
-  color:#a5a6b2;
   line-height: 41px;
   font-size: 23px;
 }
@@ -301,6 +300,7 @@ padding-top: 434px;
 
 
 }
+
 .beautiful {
   width: 48.54%;
   /* margin-left: 3%; */
@@ -488,6 +488,46 @@ span > .fa-heart {
   .features-section > div{
     padding-bottom: 109px;
   }
+
+.subscribe-title{
+  font-size: 41px;
+    text-align: center;
+  text-transform: capitalize;
+}
+
+.subscribe-intro{
+  font-size: 24px;
+    color: #a6a7b3;
+    text-align: center;
+    line-height: 41px;
+    margin-top: 36px;
+}
+.ip-name ,
+.ip-email 
+ {
+   width: 30%;
+   display: inline-block;
+  padding-right: 28%;
+  padding-left: 1.95%;
+
+}
+
+    
+
+.ip-name > input ,
+.ip-email > input ,
+.ip-submit > input {
+  padding-top:26px;
+  padding-bottom:26px;
+
+/* display: inline-block; */
+  font-size: 24px;
+}
+.subscribe-section > div {
+  padding-top: 188px;
+  padding-bottom: 200px;
+  background-color: #39defe;
+}
 /*=================================
   main styling ends here
 =================================*/
@@ -495,11 +535,46 @@ span > .fa-heart {
 /*=================================
   footer styling starts here
 =================================*/ 
+footer>div {
+  padding-top: 201px;
+    padding-bottom: 201px;
 
+}
 
+footer >div p:nth-of-type(1) {
+  text-align :center;
+  color: #a6a7b3;
+  font-size: 20px;
+  }
+  footer > div > p:nth-of-type(2){
+    text-align :center;
+    color: #a6a7b3;  
+    font-size: 19px;
+    margin-top: 23px;
+  }
+  footer > div > p >a {
+   color: #3887ed;
+  }
+  
+  .social-icons {
+  margin :0 auto;
+  width:20%;
+  margin-top: 58px;
+  display: flex;
+  justify-content: space-between;
+  }
 
+  
+  .social-iconsitem > a > i{
+  font-size: 50px;
+  }
 
-
+  /* .social-iconsitem {
+    padding-right: 4.6%;
+  }
+  .social-iconsitem :last-of-type{
+    padding-right: 0;
+  } */
 
 
  /*=================================
