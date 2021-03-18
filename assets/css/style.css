@@ -334,9 +334,7 @@ padding-top: 434px;
   line-height: 41px;
 
 }
-.review-list{
-  /* padding-top: 168px; */
-}
+
 .review-title {
   padding-top: 168px;
   font-size: 41px;
@@ -505,13 +503,22 @@ span > .fa-heart {
 .ip-name ,
 .ip-email 
  {
-   width: 30%;
+   /* width: 30%;
    display: inline-block;
   padding-right: 28%;
-  padding-left: 1.95%;
+  padding-left: 1.95%; */
+flex-basis: 30%;
 
 }
-
+.ip-name > input ,
+.ip-email > input {
+  background: #88ecff;
+  border: none;
+  border-radius: 5px;
+  padding-left: 34px;
+  color: black;
+  
+}
     
 
 .ip-name > input ,
@@ -519,15 +526,35 @@ span > .fa-heart {
 .ip-submit > input {
   padding-top:26px;
   padding-bottom:26px;
-
+width: 100%;
 /* display: inline-block; */
   font-size: 24px;
+}
+.ip-submit > input {
+  padding-left: 210px;
+    padding-right: 210px;
+    background: #3887ed;
+    border-radius: 60px;
+    border: none;
+    color: white;
+}
+.subscribe-section {
+  background-color: #39defe;
 }
 .subscribe-section > div {
   padding-top: 188px;
   padding-bottom: 200px;
   background-color: #39defe;
 }
+.name-error ,
+.email-error
+{
+display: none;
+}
+form {
+  display: flex;
+  justify-content: space-between;
+  }
 /*=================================
   main styling ends here
 =================================*/
