@@ -449,6 +449,7 @@ text-align: center;
 
   .features-list {
     display: flex;
+    flex-wrap: wrap;
   }
 
 span > .fa-tablet,
@@ -564,6 +565,7 @@ display: none;
 form {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   }
 /*=================================
   main styling ends here
@@ -648,3 +650,57 @@ footer >div p:nth-of-type(1) {
 }
 
 }  
+
+
+
+@media only screen and (min-width: 768px) and (max-width:1023px) {
+  .features-listitem {
+    flex-basis: 50%;
+    margin-bottom: 50px;
+}
+.subscribe-intro{
+  width: 90%;
+}
+.features-section >div > p {
+  width: 90%;
+}
+.review-para {
+  width: 90%;
+  font-size: 27px;
+}
+.review-img {
+  width: 20%;
+}
+.ip-name, .ip-email, .ip-submit {
+  flex-basis: 95%;
+  margin-bottom: 20px;
+
+}
+.ip-submit {
+  margin-bottom: 0;
+}
+
+.simple-intro {
+
+  font-size: 17px;
+}
+.keep-it-simple {
+  transform: translateY(140px);
+}
+.pixel-intro {
+  font-size: 17px;
+}
+.pixel-perfect {
+  transform: translateY(140px);
+}
+.beautiful-intro {
+  font-size: 17px;
+}
+
+.beautiful {
+  transform: translateY(140px);
+}
+.social-icons {
+  width: 50%;
+}
+}
