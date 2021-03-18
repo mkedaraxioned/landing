@@ -143,10 +143,10 @@ li {
 }
 
 .download-left > p > a::after {
+  width: 236px;
+  height: 0;
   content:"";
   display: block;
-  height: 0;
-  width: 236px;
   top: 46px;
   border-top: 3px solid #75e8ff ;
   position: absolute;
@@ -162,9 +162,9 @@ li {
   padding-bottom:20px;
   padding-left: 1.95%;
   padding-right: 1.95%;
-  border-radius: 37px;
   margin-left: 1.24%;
   margin-bottom: 442px;
+  border-radius: 37px;
   color: white;
   font-size: 26px;
   background-color: #3887ed;
@@ -172,8 +172,8 @@ li {
 
 .download-left {
 width: 47.42%;
-display: inline-block;
 padding-top: 434px;
+display: inline-block;
 }
 
 .download-right {
@@ -212,12 +212,12 @@ padding-top: 434px;
 }
 
 .simple-title::after {
+  width:40px;
+  height: 0;
+  border-top: 2px solid #3887ed ;
   content:"";
   display: block;
-  height: 0;
-  width:40px;
   top: 73px;
-  border-top: 2px solid #3887ed ;
   position: absolute;
 }
 
@@ -229,9 +229,9 @@ padding-top: 434px;
 }
 
 .simple-img {
-  display: inline-block;
   width: 33.27%;
   margin-top: 428px;
+  display: inline-block;
 }
 
 
@@ -259,12 +259,12 @@ padding-top: 434px;
 }
 
 .pixel-title::after {
+  width:40px;
+  height: 0;
+  border-top: 2px solid #3887ed ;
   content:"";
   display: block;
-  height: 0;
-  width:40px;
   top: 73px;
-  border-top: 2px solid #3887ed ;
   position: absolute;
 }
 
@@ -305,18 +305,18 @@ padding-top: 434px;
 }
 
 .beautiful-title::after {
+  width:40px;
+  height: 0;
+  border-top: 2px solid #3887ed ;
   content:"";
   display: block;
-  height: 0;
-  width:40px;
   top: 73px;
-  border-top: 2px solid #3887ed ;
   position: absolute;
 }
 
 .beautiful-intro {
-  font-size: 23px;
   margin-top: 58px;
+  font-size: 23px;
   color:#a5a6b2;
   line-height: 41px;
 }
@@ -338,9 +338,9 @@ padding-top: 434px;
 }
 
   .review-name {
+    margin-top: 36px;
+    margin-bottom: 18px;
   text-align: center;
-  margin-top: 36px;
-  margin-bottom: 18px;
     font-size: 18px;
     text-transform: uppercase;
   }
@@ -348,11 +348,11 @@ padding-top: 434px;
   .review-para {
     width: 67.96%;
     margin: 0 auto;
+    margin-top: 53px;
     text-align: center;
     font-size: 27px;
     color:#a5a6b2;
     line-height: 45px;
-    margin-top: 53px;
   }
 
   .review-section  {
@@ -365,53 +365,49 @@ padding-top: 434px;
     color: #fbc23c;
   }
 
-.review-list li.reviewitem:nth-of-type(2) {
-  display: none;
-}
-
-.review-list li.reviewitem:nth-of-type(3) {
+.review-list li.reviewitem:nth-child(n+2) {
   display: none;
 }
 
 .dot {
-  height: 10px;
   width: 10px;
-  background-color:#a6a7b3;
+  height: 10px;
   border-radius: 50%;
+  background-color:#a6a7b3;
   display: inline-block;
   }
   
   .blue-dot {
-    height: 8px;
     width: 8px;
+    height: 8px;
     border: 2px solid dodgerblue;
+    border-radius: 50%;
     display: inline-block;
     background-color:#a6a7b3;
-    border-radius: 50%;
 
 }
 
 .current-review {
-  margin:0 auto;
   width:43px;
-  margin-top:63px;
   padding-bottom: 183px;
+  margin:0 auto;
+  margin-top:63px;
 }
   
 .features-title {
-  font-size: 41px;
+     font-size: 41px;
       text-align: center;
       padding-top: 170px;
   }
 
  .features-section > div > p
   {   
-    font-size: 24px;
-    text-align: center;
     width: 63.94%;
     margin: 0 auto;
     margin-top: 49px;
     margin-bottom: 122px;
+    font-size: 24px;
+    text-align: center;
     color: #a6a7b3;
   }
 
@@ -479,17 +475,16 @@ span > .fa-heart {
 }
 
 .subscribe-intro{
-  padding-top: 32px;
+  width: 69.5%;
+  padding: 32px 0 127px 0;
+  margin: 0 auto;
+  margin-top: 36px;
   font-size: 24px;
     color: #2487a0;
     text-align: center;
     line-height: 41px;
-    margin-top: 36px;
-    width: 69.5%;
     text-align: center;
-    margin: 0 auto;
     line-height: 51px;
-    padding-bottom: 127px;
 
 }
 
@@ -503,10 +498,9 @@ flex-basis: 30%;
 
 .ip-name > input ,
 .ip-email > input {
-  background: #88ecff;
   border: none;
   border-radius: 5px;
-  padding-left: 34px;
+  background: #88ecff;
   color: #092876;  
 }
     
@@ -514,9 +508,8 @@ flex-basis: 30%;
 .ip-name > input ,
 .ip-email > input ,
 .ip-submit > input {
-  padding-top:26px;
-  padding-bottom:26px;
-width: 100%;
+  width: 100%;
+  padding: 26px 0 26px 34px;
   font-size: 24px;
 }
 
@@ -532,8 +525,7 @@ width: 100%;
 }
 
 .subscribe-section > div {
-  padding-top: 188px;
-  padding-bottom: 200px;
+  padding:188px 0 200px 0; 
   background-color: #39defe;
 }
 
@@ -557,9 +549,7 @@ form {
   footer styling starts here
 =================================*/ 
 footer>div {
-  padding-top: 201px;
-    padding-bottom: 201px;
-
+  padding:201px 0;
 }
 
 footer >div p:nth-of-type(1) {
@@ -580,8 +570,8 @@ footer >div p:nth-of-type(1) {
   }
   
   .social-icons {
+    width:20%;
   margin :0 auto;
-  width:20%;
   margin-top: 58px;
   display: flex;
   justify-content: space-between;
@@ -597,7 +587,7 @@ footer >div p:nth-of-type(1) {
 =================================*/ 
 
 /*media query starts*/
-/*media query for 995px starts here*/
+/*media query for 1024px starts here*/
 @media only screen and (min-width: 1024px) and (max-width:1600px) {
 .features-section > div > p {
   width: 90%;
@@ -788,9 +778,9 @@ footer >div p:nth-of-type(1) {
   }
   
   .features-section > div > p {
+    width: 100%;
       font-size: 24px;
       text-align: center;
-       width: 100%;
   }
   
   .subscribe-intro{
@@ -798,8 +788,8 @@ footer >div p:nth-of-type(1) {
   }
   
   .ip-name, .ip-email, .ip-submit {
+    margin-bottom: 20px;
       flex-basis: 88%;  
-      margin-bottom: 20px;
   }
   
   .ip-submit{
