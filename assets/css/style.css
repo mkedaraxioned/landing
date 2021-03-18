@@ -494,11 +494,18 @@ span > .fa-heart {
 }
 
 .subscribe-intro{
+  padding-top: 32px;
   font-size: 24px;
-    color: #a6a7b3;
+    color: #2487a0;
     text-align: center;
     line-height: 41px;
     margin-top: 36px;
+    width: 69.5%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 51px;
+    padding-bottom: 127px;
+
 }
 .ip-name ,
 .ip-email 
@@ -516,7 +523,7 @@ flex-basis: 30%;
   border: none;
   border-radius: 5px;
   padding-left: 34px;
-  color: black;
+  color: #092876;
   
 }
     
